@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="com.bojie.materialtest.activities.MainActivity">
+      <item
+          android:id="@+id/action_settings"
+          android:orderInCategory="100"
+          android:title="@string/action_settings"
+          app:showAsAction="never"/>
+      <item
+          android:id="@+id/navigate"
+          android:icon="@drawable/ic_chevron_right_black_48dp"
+          android:orderInCategory="200"
+          android:title="@string/next"
+          app:showAsAction="always"/>
+      <item
+          android:id="@+id/action_tab_using_SlidingTabLayout"
+          android:orderInCategory="101"
+          android:title="@string/action_tab_using_SlidingTabLayout"
+          app:showAsAction="never"/>
+      <item
+          android:id="@+id/action_tab_vector_activity"
+          android:orderInCategory="102"
+          android:title="@string/vector_activity"
+          app:showAsAction="never"/>
+</menu>

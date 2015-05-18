@@ -1,0 +1,32 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#DADADA"
+                tools:context="com.bojie.materialtest.fragments.NavigationDrawerFragment">
+
+    <LinearLayout
+        android:id="@+id/containerDrawerImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FB8C00">
+
+        <ImageView
+            android:layout_width="@dimen/nav_drawer_width"
+            android:layout_height="140dp"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="@dimen/drawer_margin_top"
+            android:src="@drawable/ic_abstract"/>
+
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/drawerList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/containerDrawerImage">
+
+    </android.support.v7.widget.RecyclerView>
+
+</RelativeLayout>
+
