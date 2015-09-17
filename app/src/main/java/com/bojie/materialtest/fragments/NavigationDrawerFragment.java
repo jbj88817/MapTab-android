@@ -18,9 +18,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Toast;
 
-import com.bojie.materialtest.pojo.Information;
 import com.bojie.materialtest.R;
 import com.bojie.materialtest.adapters.RecycleAdapter;
+import com.bojie.materialtest.pojo.Information;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -203,6 +203,11 @@ public class NavigationDrawerFragment extends Fragment {
         @Override
         public void onTouchEvent(RecyclerView rv, MotionEvent e) {
             Log.d("Bojie", "onTouchEvent " + e);
+        }
+
+        @Override
+        public void onRequestDisallowInterceptTouchEvent(boolean disallowIntercept) {
+
         }
     }
 
